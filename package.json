@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://PrataCat.github.io/team-progect-html-scc",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html --open",
     "build": "parcel build src/*.html --public-url /team-progect-html-scc/"
   },
   "repository": {

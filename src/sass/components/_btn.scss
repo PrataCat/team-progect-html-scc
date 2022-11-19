@@ -1,0 +1,92 @@
+.btn-flex {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: auto;
+  font-family: 'Roboto-700', sans-serif;
+
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.btn-shop {
+  width: 102px;
+  height: 46px;
+
+  color: var(--button-text-and-bg);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+
+  font-size: 14px;
+  line-height: 100%;
+
+  &:hover {
+    box-shadow: var(--box-shadow);
+  }
+}
+
+.btn-big {
+  width: 306px;
+  height: 70px;
+
+  font-size: 32px;
+  line-height: 1.19;
+  text-transform: uppercase;
+}
+
+.btn-big-prime {
+  color: var(--button-text-and-bg);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+
+  &:hover {
+    box-shadow: var(--box-shadow);
+  }
+}
+
+.btn-secondary {
+  color: var(--accent);
+  background: var(--button-text-and-bg);
+  border: 1px solid var(--accent);
+
+  &:hover {
+    filter: var(--box-shadow-full);
+  }
+}
+
+.btn-big-secondary-light {
+  color: var(--primary-text-color);
+  background: var(--button-text-and-bg);
+  border: 1px solid var(--primary-text-color);
+
+  &:hover {
+    filter: var(--box-shadow-light);
+  }
+}
+
+.btn-view-all {
+  width: 195px;
+  height: 65px;
+
+  color: var(--button-text-and-bg);
+  background: var(--primary-text-color);
+  border: 1px solid var(--primary-text-color);
+
+  font-size: 28px;
+  line-height: 1.19;
+
+  &:hover {
+    box-shadow: var(--box-shadow-view-all);
+  }
+}
+
+.btn-accessories {
+  width: 168px;
+  height: 51px;
+}
