@@ -1,15 +1,15 @@
 .hero__container {
   @extend %flex-jc-ac;
-  padding-top: 76px;
+  padding-top: 180px;
   @include tablet {
     justify-content: start;
     padding-left: 40px;
-    padding-top: 18px;
+    padding-top: 154px;
   }
   @include desktop {
     justify-content: start;
     padding-left: 142px;
-    padding-top: 44px;
+    padding-top: 180px;
   }
 }
 
@@ -33,45 +33,11 @@
   }
 }
 
-// .hero__container-btn {
-//   @extend %flex-jc-ac;
-//   // padding-bottom: 127px;
-//   @include tablet {
-//     justify-content: start;
-//     padding-left: 41px;
-//   }
-//   @include desktop {
-//     justify-content: start;
-//     padding-left: 142px;
-//   }
-// }
-
-// .hero__btn {
-//   width: 173px;
-//   height: 51px;
-//   background: #86e543;
-//   border-radius: 16px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-
-//   font-family: 'Roboto';
-//   @include font(700, 16px, calc(19 / 16), 0);
-//   text-transform: uppercase;
-//   color: #01383a;
-//   @include tablet {
-//     width: 306px;
-//     height: 70px;
-//     @include font(0, 32px, calc(38 / 32), 0);
-//   }
-// }
-
-// .btn--prime {
-//   color: var(--button-text-and-bg);
-//   background: var(--accent);
-//   border: 1px solid var(--accent);
-
-//   &:hover {
-//     box-shadow: var(--box-shadow);
-//   }
-// }
+.hero__container-btn {
+  @include tablet {
+    padding-left: 41px;
+  }
+  @include desktop {
+    padding-left: 142px;
+  }
+}
